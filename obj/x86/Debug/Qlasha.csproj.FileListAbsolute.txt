@@ -1,0 +1,10 @@
+C:\Users\asbel\documents\visual studio 2010\Projects\Qlasha\Qlasha\bin\Debug\Qlasha.pdb
+C:\Users\asbel\documents\visual studio 2010\Projects\Qlasha\Qlasha\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\asbel\documents\visual studio 2010\Projects\Qlasha\Qlasha\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\asbel\documents\visual studio 2010\Projects\Qlasha\Qlasha\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\asbel\documents\visual studio 2010\Projects\Qlasha\Qlasha\obj\x86\Debug\Qlasha.pdb
+C:\Users\asbel\documents\visual studio 2010\Projects\Qlasha\Qlasha\obj\x86\Debug\Qlasha.Properties.Resources.resources
+C:\Users\asbel\documents\visual studio 2010\Projects\Qlasha\Qlasha\obj\x86\Debug\WindowsFormsQlasha.Form1.resources
+C:\Users\asbel\Documents\Visual Studio 2010\Projects\Qlasha\Qlasha\bin\Debug\Qlasha.exe
+C:\Users\asbel\Documents\Visual Studio 2010\Projects\Qlasha\Qlasha\obj\x86\Debug\Qlasha.exe
+C:\Users\asbel\documents\visual studio 2010\Projects\Qlasha\Qlasha\bin\Debug\Qlasha.exe.config

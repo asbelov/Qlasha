@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CfgCrinkleCount" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="CfgHTMLEmpty" xml:space="preserve">
+    <value>&lt;HTML&gt;&lt;BODY&gt;OK&lt;/BODY&gt;&lt;/HTML&gt;</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CfgHTMLFull" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CfgHTMLFull.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1251</value>
+  </data>
+  <data name="CfgHTTPHosts" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="CfgHTTPPort" xml:space="preserve">
+    <value>10160</value>
+  </data>
+  <data name="CfgHTTPProtocol" xml:space="preserve">
+    <value>http</value>
+  </data>
+  <data name="CfgOpacityNoTransparent" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="CfgOpacityTransparent" xml:space="preserve">
+    <value>0,3</value>
+  </data>
+  <data name="CfgRegExpNormalizeMessage" xml:space="preserve">
+    <value>[^\w\d\s\.\,\?\!\'\$\@\{\}_\&lt;\&gt;\"\=\/\-]</value>
+  </data>
+  <data name="CfgSeparator" xml:space="preserve">
+    <value>; </value>
+  </data>
+  <data name="CfgSpeekRate" xml:space="preserve">
+    <value>-1</value>
+  </data>
+  <data name="CfgSpeekVolume" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="CfgURLEncoding" xml:space="preserve">
+    <value>encoding</value>
+  </data>
+  <data name="CfgURLLastMessage" xml:space="preserve">
+    <value>lastmessage</value>
+  </data>
+  <data name="CfgURLMessage" xml:space="preserve">
+    <value>message</value>
+  </data>
+  <data name="CfgURLPrefix" xml:space="preserve">
+    <value>prefix</value>
+  </data>
+  <data name="CfgURLPrefixes" xml:space="preserve">
+    <value>prefixes</value>
+  </data>
+  <data name="CfgURLQueryCharset" xml:space="preserve">
+    <value>cp</value>
+  </data>
+  <data name="CfgURLQuiet" xml:space="preserve">
+    <value>quiet</value>
+  </data>
+  <data name="CfgURLRate" xml:space="preserve">
+    <value>rate</value>
+  </data>
+  <data name="CfgURLSeverity" xml:space="preserve">
+    <value>severity</value>
+  </data>
+  <data name="CfgURLVoice" xml:space="preserve">
+    <value>voice</value>
+  </data>
+  <data name="CfgURLVolume" xml:space="preserve">
+    <value>volume</value>
+  </data>
+  <data name="CfgVoiceSelectAlg" xml:space="preserve">
+    <value>RUS[Female] Alyona; RUS[Female] ScanSoft Katerina_Full_22kHz; RUS[Female];  RUS; [Female]</value>
+  </data>
+  <data name="Dance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dance.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuStrBrowser" xml:space="preserve">
+    <value>Войти в мозг</value>
+  </data>
+  <data name="MenuStrExit" xml:space="preserve">
+    <value>Выход</value>
+  </data>
+  <data name="MenuStrLastMessage" xml:space="preserve">
+    <value>Последнее сообщение</value>
+  </data>
+  <data name="MenuStrRate" xml:space="preserve">
+    <value>Скорость</value>
+  </data>
+  <data name="MenuStrVoice" xml:space="preserve">
+    <value>Голос</value>
+  </data>
+  <data name="MenuStrVolume" xml:space="preserve">
+    <value>Громкость</value>
+  </data>
+  <data name="StrCantChangeVoice" xml:space="preserve">
+    <value>Не могу я стать {0} потому что {1}; Не могу поменять голос на {0} потому что {1}</value>
+  </data>
+  <data name="StrEmpty" xml:space="preserve">
+    <value />
+  </data>
+  <data name="StrErrorInitHTTP" xml:space="preserve">
+    <value>Не удается инициализировать подключение к мозгу по протоколу HTTP: {0}. Попробую еще раз;</value>
+  </data>
+  <data name="StrForgetNMessages" xml:space="preserve">
+    <value>{0} сообщений я забыла...; а {0} сообщений я не скажу</value>
+  </data>
+  <data name="StrLastMessage" xml:space="preserve">
+    <value>Я говорила что {0}; Запоминай. {0}; Глухня! Я говорю что {0}; Ты что, меня не слышишь? Я сказала что {0}; Память тренеруй!; Уши прочисть!; Глухня!; Ты что меня не слушал?</value>
+  </data>
+  <data name="StrMessageConnectors" xml:space="preserve">
+    <value> и ;  а ещё ;  и ;  ну и ;  и ;  и кстати ;  и ; </value>
+  </data>
+  <data name="StrMouseDown" xml:space="preserve">
+    <value>Отстань; Что тебе надо; Что хотел?; Отвали!; Не трогай меня!; Руки проч от советской власти!; Не трогай меня, я на работе; Отвали, ты себя в зеркало видел?</value>
+  </data>
+  <data name="StrMouseHover" xml:space="preserve">
+    <value>Что смотришь?; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ;Не смотри на меня; ; ; ; ; ; ; ; ; ; ; ; ; ; ; </value>
+  </data>
+  <data name="StrMouseMove" xml:space="preserve">
+    <value>Куда; Отпусти!; Куда ты меня тащишь; Пусти меня; Куда ты меня повел, я не такая!</value>
+  </data>
+  <data name="StrMouseUp" xml:space="preserve">
+    <value>дурак; ; ; ; ; ; ; идиот; ; ; ; ; ; ;</value>
+  </data>
+  <data name="StrOnTimer" xml:space="preserve">
+    <value>&lt;VOLUME LEVEL="100"&gt;апчхи&lt;/VOLUME&gt;; ; ; ; ; ; ; ; ; ; ; &lt;VOLUME LEVEL="30"&gt;фифифи&lt;/VOLUME&gt;; ; ; ; ; ; ; ; ; ; ; &lt;VOLUME LEVEL="30"&gt;фифифифи&lt;/VOLUME&gt;; ; ; ; ; ; ; ; ; ; ; &lt;VOLUME LEVEL="30"&gt;кхыкхы&lt;/VOLUME&gt;; ; ; ; ; ; ; ; ; ; ; &lt;VOLUME LEVEL="10"&gt;хахаха&lt;/VOLUME&gt;; ; ; ; ; ; ; ; ; ; ; &lt;VOLUME LEVEL="10"&gt;хыхыхы&lt;/VOLUME&gt;; ; ; ; ; ; ; ; ; ; ; &lt;VOLUME LEVEL="10"&gt;хыхыхыхы&lt;/VOLUME&gt;; ; ; ; ; ; ; ; ; ; ;</value>
+  </data>
+  <data name="StrRateChanged" xml:space="preserve">
+    <value>Скорость стала {0}; Я теперь говорю со скоростью {0}</value>
+  </data>
+  <data name="StrVoiceChanded" xml:space="preserve">
+    <value>Теперь я {0}; Я говорю голосом {0}; Мой голос поменялся на {0}</value>
+  </data>
+  <data name="StrVolumeChanged" xml:space="preserve">
+    <value>Громкость стала {0};Ты меня слышишь?; Как меня теперь слышно?</value>
+  </data>
+</root>

@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Qlasha's brain</title>
+</head>
+<body onload="zbxCallPostScripts();">
+<table class="page_header" cellspacing="0" cellpadding="5">
+<tr>
+<td class="page_header_l">
+<a href="http://zabbix-nsk.quik.ru/" target="_blank"><div class="zabbix_logo">&nbsp;</div></a></td>
+<td class="page_header_r" width="100%">
+<a class="small_font" href="http://zabbix-nsk.quik.ru/wiki" target="_blank">Help</a>|<a class="small_font" href="http://zabbix-nsk.quik.ru/wiki" target="_blank">Get support</a>|<a class="small_font" href="/zabbix/instal.php?sid=bf9f12d66d381124&amp;print=1">Print</a>|<a class="small_font" href="profile.php?sid=bf9f12d66d381124">Profile</a>|<a class="small_font" href="index.php?reconnect=1&amp;sid=bf9f12d66d381124">Logout</a></td>
+</tr>
+</table>
+<script type="text/javascript"><!--
+MMenu.def_label = 'admin'
+--></script><div id="mmenu"><table cellspacing="0" cellpadding="0" style="width: 100%;">
+<tr>
+<td>
+<table class="menu" cellspacing="0" cellpadding="5">
+<tr>
+<td class="horizontal_menu_n" id="view" onclick="javascript: location.href = 'screens.php';" onmouseover="javascript: MMenu.mouseOver(&quot;view&quot;);" onmouseout="javascript: MMenu.mouseOut();">
+Monitoring</td>
+<td class="horizontal_menu_n" id="cm" onclick="javascript: location.href = 'hostprofiles.php';" onmouseover="javascript: MMenu.mouseOver(&quot;cm&quot;);" onmouseout="javascript: MMenu.mouseOut();">
+Inventory</td>
+<td class="horizontal_menu_n" id="reports" onclick="javascript: location.href = 'report5.php';" onmouseover="javascript: MMenu.mouseOver(&quot;reports&quot;);" onmouseout="javascript: MMenu.mouseOut();">
+Reports</td>
+<td class="horizontal_menu_n" id="config" onclick="javascript: location.href = 'hosts.php';" onmouseover="javascript: MMenu.mouseOver(&quot;config&quot;);" onmouseout="javascript: MMenu.mouseOut();">
+Configuration</td>
+<td class="active" id="admin" onclick="javascript: location.href = 'instal.php';" onmouseover="javascript: MMenu.mouseOver(&quot;admin&quot;);" onmouseout="javascript: MMenu.mouseOut();">
+Administration</td>
+<td class="horizontal_menu_n" id="HELP" onclick="javascript: location.href = '';" onmouseover="javascript: MMenu.mouseOver(&quot;HELP&quot;);" onmouseout="javascript: MMenu.mouseOut();">
+Инструкции</td>
+</tr>
+</table>
+</td>
+<td style="text-align: right;">
+<form method="post" action="instal.php">
+<input type="hidden" name="sid" id="sid" value="bf9f12d66d381124" />
+
+<span class="textcolorstyles">Current node</span><select id="switch_node" name="switch_node" class="biginput" size="1" onchange="submit()">
+<option value="1" selected="selected">Central node</option>
+</select></form>
+</td>
+</tr>
+</table>
+<div id="sub_view" onmouseover="javascript: MMenu.submenu_mouseOver();" onmouseout="javascript: MMenu.mouseOut();" style="display: none;"><table class="sub_menu" cellspacing="0" cellpadding="5">
+<tr>
+<td colspan="1">
+<a class="highlight nowrap" href="dashboard.php?sid=bf9f12d66d381124">Dashboard</a><span class="divider">&nbsp; | &nbsp;</span><a class="highlight nowrap" href="overview.php?sid=bf9f12d66d381124">Overview</a><span class="divider">&nbsp; | &nbsp;</span><a class="highlight nowrap" href="httpmon.php?sid=bf9f12d66d381124">Web</a><span class="divider">&nbsp; | &nbsp;</span><a class="highlight nowrap" href="latest.php?sid=bf9f12d66d381124">Latest data</a><span class="divider">&nbsp; | &nbsp;</span><a class="highlight nowrap" href="tr_status.php?sid=bf9f12d66d381124">Triggers</a><span class="divider">&nbsp; | &nbsp;</span><a class="highlight nowrap" href="events.php?sid=bf9f12d66d381124">Events</a><span class="divider">&nbsp; | &nbsp;</span><a class="highlight nowrap" href="charts.php?sid=bf9f12d66d381124">Graphs</a><span class="divider">&nbsp; | &nbsp;</span><a class="highlight nowrap" href="screens.php?sid=bf9f12d66d381124">Screens</a><span class="divider">&nbsp; | &nbsp;</span><a class="highlight nowrap" href="maps.php?sid=bf9f12d66d381124">Maps</a><span class="divider">&nbsp; | &nbsp;</span><a class="highlight nowrap" href="discovery.php?sid=bf9f12d66d381124">Discovery</a><span class="divider">&nbsp; | &nbsp;</span><a class="highlight nowrap" href="srv_status.php?sid=bf9f12d66d381124">IT services</a><span class="divider">&nbsp; | &nbsp;</span></td>
+</tr>
+</table>
+</div><div id="sub_cm" onmouseover="javascript: MMenu.submenu_mouseOver();" onmouseout="javascript: MMenu.mouseOut();" style="display: none;"><table class="sub_menu" cellspacing="0" cellpadding="5">
+<tr>
+<td colspan="1">
+<a class="highlight nowrap" href="hostprofiles.php?sid=bf9f12d66d381124">Hosts</a><span class="divider">&nbsp; | &nbsp;</span></td>
+</tr>
+</table>
+</div><div id="sub_reports" onmouseover="javascript: MMenu.submenu_mouseOver();" onmouseout="javascript: MMenu.mouseOut();" style="display: none;"><table class="sub_menu" cellspacing="0" cellpadding="5">
+<tr>
+<td colspan="1">
+<a class="highlight nowrap" href="report1.php?sid=bf9f12d66d381124">Status of ZABBIX</a><span class="divider">&nbsp; | &nbsp;</span><a class="highlight nowrap" href="report2.php?sid=bf9f12d66d381124">Availability report</a><span class="divider">&nbsp; | &nbsp;</span><a class="highlight nowrap" href="report5.php?sid=bf9f12d66d381124">Most busy triggers top 100</a><span class="divider">&nbsp; | &nbsp;</span></td>
+</tr>
+</table>
+</div><div id="sub_config" onmouseover="javascript: MMenu.submenu_mouseOver();" onmouseout="javascript: MMenu.mouseOut();" style="display: none;"><table class="sub_menu" cellspacing="0" cellpadding="5">
+<tr>
+<td colspan="1">
+<a class="highlight nowrap" href="config.php?sid=bf9f12d66d381124">General</a><span class="divider">&nbsp; | &nbsp;</span><a class="highlight nowrap" href="httpconf.php?sid=bf9f12d66d381124">Web</a><span class="divider">&nbsp; | &nbsp;</span><a class="highlight nowrap" href="hosts.php?sid=bf9f12d66d381124">Hosts</a><span class="divider">&nbsp; | &nbsp;</span><a class="highlight nowrap" href="items.php?sid=bf9f12d66d381124">Items</a><span class="divider">&nbsp; | &nbsp;</span><a class="highlight nowrap" href="triggers.php?sid=bf9f12d66d381124">Triggers</a><span class="divider">&nbsp; | &nbsp;</span><a class="highlight nowrap" href="actionconf.php?sid=bf9f12d66d381124">Actions</a><span class="divider">&nbsp; | &nbsp;</span><a class="highlight nowrap" href="graphs.php?sid=bf9f12d66d381124">Graphs</a><span class="divider">&nbsp; | &nbsp;</span><a class="highlight nowrap" href="screenconf.php?sid=bf9f12d66d381124">Screens</a><span class="divider">&nbsp; | &nbsp;</span><a class="highlight nowrap" href="sysmaps.php?sid=bf9f12d66d381124">Maps</a><span class="divider">&nbsp; | &nbsp;</span><a class="highlight nowrap" href="services.php?sid=bf9f12d66d381124">IT services</a><span class="divider">&nbsp; | &nbsp;</span><a class="highlight nowrap" href="discoveryconf.php?sid=bf9f12d66d381124">Discovery</a><span class="divider">&nbsp; | &nbsp;</span><a class="highlight nowrap" href="exp_imp.php?sid=bf9f12d66d381124">Export/Import</a><span class="divider">&nbsp; | &nbsp;</span></td>
+</tr>
+</table>
+</div><div id="sub_admin" onmouseover="javascript: MMenu.submenu_mouseOver();" onmouseout="javascript: MMenu.mouseOut();" style="display: block;"><table class="sub_menu" cellspacing="0" cellpadding="5">
+<tr>
+<td colspan="1">
+<a class="highlight nowrap" href="nodes.php?sid=bf9f12d66d381124">Nodes</a><span class="divider">&nbsp; | &nbsp;</span><a class="highlight nowrap" href="authentication.php?sid=bf9f12d66d381124">Authentication</a><span class="divider">&nbsp; | &nbsp;</span><a class="highlight nowrap" href="users.php?sid=bf9f12d66d381124">Users</a><span class="divider">&nbsp; | &nbsp;</span><a class="highlight nowrap" href="media_types.php?sid=bf9f12d66d381124">Media types</a><span class="divider">&nbsp; | &nbsp;</span><a class="highlight nowrap" href="scripts.php?sid=bf9f12d66d381124">Scripts</a><span class="divider">&nbsp; | &nbsp;</span><a class="highlight nowrap" href="audit.php?sid=bf9f12d66d381124">Audit</a><span class="divider">&nbsp; | &nbsp;</span><a class="highlight nowrap" href="queue.php?sid=bf9f12d66d381124">Queue</a><span class="divider">&nbsp; | &nbsp;</span><a class="highlight nowrap" href="report4.php?sid=bf9f12d66d381124">Notifications</a><span class="divider">&nbsp; | &nbsp;</span><a class="highlight nowrap" href="locales.php?sid=bf9f12d66d381124">Locales</a><span class="divider">&nbsp; | &nbsp;</span><span class="active nowrap"><a class="highlight nowrap" href="instal.php?sid=bf9f12d66d381124">Installation</a></span><span class="divider">&nbsp; | &nbsp;</span></td>
+</tr>
+</table>
+</div><div id="sub_HELP" onmouseover="javascript: MMenu.submenu_mouseOver();" onmouseout="javascript: MMenu.mouseOut();" style="display: none;"><table class="sub_menu" cellspacing="0" cellpadding="5">
+<tr>
+<td colspan="1">
+<a class="highlight nowrap" href="http://zabbix-nsk.quik.ru/wiki/faq/31-general.html?sid=bf9f12d66d381124">______________________________________________ Инструкции по настройке Zabbix</a><span class="divider">&nbsp; | &nbsp;</span></td>
+</tr>
+</table>
+</div><div id="sub_empty" style="display: none;"><table class="sub_menu" cellspacing="0" cellpadding="5">
+<tr>
+<td>
+&nbsp;</td>
+</tr>
+</table>
+</div></div><br/>
+<script type="text/javascript" src="js/showhint.js"></script><br/>
+<form method="post" action="setup.php">
+<input type="hidden" name="sid" id="sid" value="bf9f12d66d381124" />
+
+<table class="setup_wizard" align="center"><tr class="header">
+<td class="left">
+ZABBIX&nbsp;1.6.9</td>
+<td>
+&nbsp;</td>
+</tr>
+
+<tr class="title">
+<td>
+&nbsp;</td>
+<td class="right">
+1. Introduction</td>
+</tr>
+<tr class="center">
+<td class="left">
+<ul>
+<li class="current">
+1. Introduction</li>
+<li>
+2. Licence Agreement</li>
+<li>
+3. Check of pre-requisites</li>
+<li>
+4. Configure DB connection</li>
+<li>
+5. ZABBIX server details</li>
+<li>
+6. Pre-Installation Summary</li>
+<li>
+7. Install</li>
+<li>
+8. Finish</li>
+</ul></td>
+<td class="right">
+<div class="text">Welcome to the ZABBIX frontend installation wizard.<br />
+
+<br />
+
+This installation wizard will guide you through the installation of ZABBIX frontend<br />
+
+<br />
+
+Click the &quot;Next&quot; button to proceed to the next screen. If you want to change something on a previous screen, click &quot;Previous&quot; button<br />
+
+<br />
+
+You may cancel installation at any time by clicking &quot;Cancel&quot; button</div></td>
+</tr>
+<tr class="footer">
+<td class="left">
+<input type="submit" value="Cancel" class="button" name="cancel" />
+</td>
+<td class="right">
+<input type="submit" value="Next &gt;&gt;" class="button" name="next[0]" />
+</td>
+</tr>
+</table>
+</form>
+<script language="JavaScript" type="text/javascript">
+<!--
+function zbxCallPostScripts(){
+}
+
+try{
+	chkbx_range_ext.init();
+}
+catch(e){
+	throw('Checkbox extension failed!');
+}
+-->
+</script>
+<table class="page_footer" cellspacing="0" cellpadding="1">
+<tr>
+<td class="page_footer_l">
+<a class="highlight" href="http://www.zabbix.com">ZABBIX&nbsp;1.6.9&nbsp;Copyright 2001-2009 by &nbsp;SIA Zabbix</a></td>
+<td class="page_footer_r">
+<span class="divider">&nbsp;&nbsp;|&nbsp;&nbsp;</span><span class="footer_sign">Connected as&nbsp;'asbel'&nbsp;from&nbsp;'Central node'</span></td>
+</tr>
+</table>
+</body>
+</html>
