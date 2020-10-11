@@ -1,5 +1,6 @@
 # Qlasha
-Talking dancing girl
+Talking and dancing girl
+
 The girl can be used for highly intellectual communication while drinking alcoholic beverages.
 
 As a last resort, connect it to your monitoring system and use it for voice reporting of problems.
